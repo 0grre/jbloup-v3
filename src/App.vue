@@ -1,22 +1,11 @@
 <script setup>
 import octokit from "../services/github.js";
-import {ref, onMounted, onUnmounted} from 'vue';
+import {ref, onMounted, onUnmounted, nextTick} from 'vue';
 
 const about = ref(null);
 const experiences = ref(null);
 const projects = ref(null);
 const currentSection = ref('');
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      currentSection.value = entry.target.id;
-    }
-  });
-}, {
-  rootMargin: '0px',
-  threshold: 0.5
-});
 
 const data = ref(null);
 
@@ -41,9 +30,22 @@ async function fetchData() {
 
 onMounted(() => {
   fetchData();
-  observer.observe(about.value);
-  observer.observe(experiences.value);
-  observer.observe(projects.value);
+  nextTick(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          currentSection.value = entry.target.id; // Met à jour la section active
+        }
+      });
+    }, {
+      rootMargin: '0px',
+      threshold: 0.5 // Ajustez ce seuil selon vos besoins
+    });
+
+    if(about.value) observer.observe(about.value);
+    if(experiences.value) observer.observe(experiences.value);
+    if(projects.value) observer.observe(projects.value);
+  });
 });
 
 onUnmounted(() => {

@@ -2,7 +2,9 @@
 const props = defineProps({
   basics: Object,
 })
+
 console.log(props.basics)
+
 </script>
 
 <template>
@@ -13,7 +15,7 @@ console.log(props.basics)
     </h1>
       <h2 class="mt-3 text-lg font-medium tracking-tight text-zinc-200 sm:text-xl">{{ basics.label }} chez
         {{ basics.company }}</h2>
-      <p class="mt-4 max-w-xs leading-normal">{{ basics.summary }}</p>
+      <p class="mt-4 max-w-xs leading-normal">{{ basics.subtitle }}</p>
       <nav class="nav hidden lg:block" aria-label="In-page jump links">
         <ul class="mt-16 w-max">
           <li><a class="group flex items-center py-3 active" href="#about"><span

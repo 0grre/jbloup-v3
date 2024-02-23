@@ -5,7 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <td id="about">
+  <td id="about" valign="top">
       <h2>About</h2>
       <p>{{ basics.summary }}</p>
       <p>{{ basics.summary_2 }}</p>

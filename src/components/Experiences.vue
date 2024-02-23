@@ -11,7 +11,7 @@ const getYear = (string) => {
 </script>
 
 <template>
-  <td id="experience">
+  <td id="experience" valign="top">
     <hr>
     <h2>Experiences</h2>
     <template v-for="experience in work">
@@ -34,6 +34,10 @@ const getYear = (string) => {
         </small>
       </fieldset>
     </template>
-
+    <tr>
+      <td>
+        <a href=""><p>View full resume &rarr; </p></a>
+      </td>
+    </tr>
   </td>
 </template>

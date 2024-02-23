@@ -1,0 +1,19 @@
+{
+  "header": {
+    "at": "at"
+  },
+  "about": {
+    "title": "About"
+  },
+  "projects": {
+    "title": "Projects",
+    "sentence": "See all open source projects"
+  },
+  "work": {
+    "title": "Experience",
+    "sentence": "See full resume"
+  },
+  "footer": {
+    "description": "About"
+  }
+}

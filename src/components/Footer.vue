@@ -5,7 +5,8 @@
 
 
 <template>
-  <footer class="max-w-md pb-16 text-sm text-zinc-500 sm:pb-0">
+  <td valign="top">
+    <hr>
     <p>
       Loosely designed in
       <a href="https://www.figma.com/"
@@ -47,6 +48,6 @@
       </a>
       typeface.
     </p>
-  </footer>
+  </td>
 
 </template>

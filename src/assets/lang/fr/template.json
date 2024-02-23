@@ -1,0 +1,19 @@
+{
+  "header": {
+    "at": "chez"
+  },
+  "about": {
+    "title": "À propos"
+  },
+  "projects": {
+    "title": "Projets",
+    "sentence": "Voir tous les projets open sources"
+  },
+  "work": {
+    "title": "Expériences",
+    "sentence": "Voir le CV"
+  },
+  "footer": {
+    "description": "À propos"
+  }
+}

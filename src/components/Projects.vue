@@ -1,6 +1,7 @@
 <script setup>
 const props = defineProps({
   projects: Object,
+  archives: String
 })
 </script>
 
@@ -32,7 +33,7 @@ const props = defineProps({
   </td>
   <tr>
     <td>
-      <router-link to="/archives"><p>View full open source projects &rarr; </p></router-link>
+      <router-link to="/archives"><p>{{ archives }} &rarr; </p></router-link>
     </td>
   </tr>
 </template>

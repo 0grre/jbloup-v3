@@ -37,7 +37,7 @@ const getYear = (string) => {
     </template>
     <tr>
       <td>
-        <a href="/Jean-Baptiste_LOUP_CV_2024.pdf"><p>{{ resume }} &rarr; </p></a>
+        <a href="/Jean-Baptiste_LOUP_CV_2024.pdf" target="_blank"><p>{{ resume }} &rarr; </p></a>
       </td>
     </tr>
   </td>

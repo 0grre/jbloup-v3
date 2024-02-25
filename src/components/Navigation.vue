@@ -2,8 +2,10 @@
 import Header from "./Header.vue";
 defineProps({
   about: String,
+  work: String,
   projects: String,
-  experiences: String
+  archives: String,
+  resume: String
 })
 </script>
 
@@ -17,7 +19,7 @@ defineProps({
           <tr>
             <td></td>
             <td width="150px">
-              <ul>
+              <ol>
                 <li>
                   <a href="#about">{{ about }}</a>
                 </li>
@@ -25,7 +27,15 @@ defineProps({
                   <a href="#projects">{{ projects }}</a>
                 </li>
                 <li>
-                  <a href="#experience">{{ experiences }}</a>
+                  <a href="#experience">{{ work }}</a>
+                </li>
+              </ol>
+              <ul>
+                <li>
+                  <router-link to="/archives">{{ archives }}</router-link>
+                </li>
+                <li>
+                  <a href="/Jean-Baptiste_LOUP_CV_2024.pdf">{{ resume }}</a>
                 </li>
               </ul>
             </td>

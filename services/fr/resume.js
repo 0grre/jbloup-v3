@@ -1,7 +1,7 @@
 import octokit from "../github.js";
 
-const response = await octokit.request("GET /gists/ae63e34c62d41c9f5e053eb6661ff42d", {
-    gist_id: 'ae63e34c62d41c9f5e053eb6661ff42d',
+const response = await octokit.request("GET /gists/" + import.meta.env.VITE_FRENCH_GIST_ID, {
+    gist_id: import.meta.env.VITE_FRENCH_GIST_ID,
     headers: {
         'X-GitHub-Api-Version': '2022-11-28',
         'accept': 'application/vnd.github.v3+json'

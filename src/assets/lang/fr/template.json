@@ -13,7 +13,15 @@
     "title": "Expériences",
     "sentence": "Voir le CV"
   },
-  "footer": {
-    "description": "À propos"
+  "archives": {
+    "title": "Archives",
+    "sentence": "Voir tous les projets open sources"
+  },
+  "resume": {
+    "title": "CV Complet",
+    "sentence": "Voir le CV complet"
+  },
+  "aside": {
+    "description": "Ce site est inspiré de motherfuckingwebsite, je suis développeur full stack mais je suis plus intéressé par le backend et je trouvais amusant d’illustrer cet attrait par un site sans CSS, ce n’est que du HTML. Ce site est développé en vue 3 avec vite et bun, alimenté en données par mes gists et mon profil GitHub via l’api et déployé sur Vercel. "
   }
 }

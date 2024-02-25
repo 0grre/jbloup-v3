@@ -1,6 +1,7 @@
 <script setup>
 const props = defineProps({
   work: Object,
+  resume: String
 })
 
 const getYear = (string) => {
@@ -36,7 +37,7 @@ const getYear = (string) => {
     </template>
     <tr>
       <td>
-        <a href=""><p>View full resume &rarr; </p></a>
+        <a href="/Jean-Baptiste_LOUP_CV_2024.pdf"><p>{{ resume }} &rarr; </p></a>
       </td>
     </tr>
   </td>

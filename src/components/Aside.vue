@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-  description: String
+  text: String
 
 })
 </script>
@@ -8,7 +8,7 @@ defineProps({
 <template>
   <td>
     <hr>
-    <p v-html="description">
+    <p v-html="text">
     </p>
   </td>
 </template>

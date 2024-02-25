@@ -71,7 +71,7 @@ const loadTemplateData = (locationCountryCode) => {
         <td width="40%">
 
         </td>
-        <Aside :description="templateData.aside.description"/>
+        <Aside :text="templateData.aside.text"/>
       </tr>
       </tfoot>
     </table>

@@ -2,7 +2,9 @@
   <footer>
     <hr>
     <center>
-      <p>2024 | Developped with &hearts; by <a href="https://github.com/0grre">0grre</a>.</p>
+      <p> 2024 | All Right Reserved | Jean-Baptiste LOUP | old versions: <a href="https://v1.jbloup.com" target="_blank">v1</a>
+        -
+        <a href="https://v2.jbloup.com" target="_blank">v2</a></p>
     </center>
   </footer>
 </template>

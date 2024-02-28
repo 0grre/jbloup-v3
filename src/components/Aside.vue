@@ -1,14 +1,11 @@
 <script setup>
 defineProps({
+  title: String,
   text: String
-
 })
 </script>
 
 <template>
-  <td>
-    <hr>
-    <p v-html="text">
-    </p>
-  </td>
+  <h2>{{ title }}</h2>
+  <p v-html="text"></p>
 </template>

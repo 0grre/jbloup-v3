@@ -1,11 +1,8 @@
 <script setup>
 import Header from "./Header.vue";
-defineProps({
-  about: String,
-  work: String,
-  projects: String,
-  archives: String,
-  resume: String
+
+const props = defineProps({
+  templateData: Object,
 })
 </script>
 
@@ -21,21 +18,21 @@ defineProps({
             <td width="150px">
               <ol>
                 <li>
-                  <a href="#about">{{ about }}</a>
+                  <a href="#about">{{ templateData.about.title }}</a>
                 </li>
                 <li>
-                  <a href="#projects">{{ projects }}</a>
+                  <a href="#experience">{{ templateData.work.title }}</a>
                 </li>
                 <li>
-                  <a href="#experience">{{ work }}</a>
+                  <a href="#projects">{{ templateData.projects.title }}</a>
                 </li>
               </ol>
               <ul>
                 <li>
-                  <router-link to="/archives">{{ archives }}</router-link>
+                  <router-link to="/archives">{{ templateData.archives.title }}</router-link>
                 </li>
                 <li>
-                  <a href="/Jean-Baptiste_LOUP_CV_2024.pdf">{{ resume }}</a>
+                  <a href="/Jean-Baptiste_LOUP_CV_2024.pdf">{{ templateData.resume.title }}</a>
                 </li>
               </ul>
             </td>
@@ -45,5 +42,6 @@ defineProps({
         </table>
       </details>
     </center>
+    <hr>
   </header>
 </template>

@@ -12,15 +12,14 @@ const getYear = (string) => {
 </script>
 
 <template>
-  <td id="experience" valign="top">
-    <hr>
+  <section id="experiences">
     <h2>Experiences</h2>
     <template v-for="experience in work">
       <fieldset v-if="experience.highlights">
         <legend>
           <h4>
-          <a :href="experience.url">{{ experience.name }}</a>
-        </h4>
+            <a :href="experience.url">{{ experience.name }}</a>
+          </h4>
         </legend>
         <p>{{ experience.summary }}</p>
         <ul>
@@ -35,10 +34,7 @@ const getYear = (string) => {
         </small>
       </fieldset>
     </template>
-    <tr>
-      <td>
-        <a href="/Jean-Baptiste_LOUP_CV_2024.pdf" target="_blank"><p>{{ resume }} &rarr; </p></a>
-      </td>
-    </tr>
-  </td>
+    <a href="/Jean-Baptiste_LOUP_CV_2024.pdf" target="_blank"><p>{{ resume }} &rarr; </p></a>
+    <hr>
+  </section>
 </template>

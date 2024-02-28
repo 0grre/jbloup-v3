@@ -1,0 +1,26 @@
+{
+  "header": {
+    "at": "chez"
+  },
+  "about": {
+    "title": "À propos"
+  },
+  "projects": {
+    "title": "Projets"
+  },
+  "work": {
+    "title": "Expériences"
+  },
+  "archives": {
+    "title": "Archives",
+    "sentence": "Voir mes autres projets"
+  },
+  "resume": {
+    "title": "CV Complet",
+    "sentence": "Voir mon CV complet"
+  },
+  "aside": {
+    "title": "À propos de ce site",
+    "text": "Ce site est inspiré de <a href=\"https://motherfuckingwebsite.com/\" target=\"_blank\">mother fucking website</a>, même si je suis <b>développeur full stack</b>, je suis plus intéressé par le\n    <b>backend</b> et je trouvais amusant d’illustrer cet attrait par un site <u>sans CSS</u>."
+  }
+}

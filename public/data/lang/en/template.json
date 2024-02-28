@@ -13,13 +13,14 @@
   },
   "archives": {
     "title": "Public projects",
-    "sentence": "View all public projects"
+    "sentence": "View all projects"
   },
   "resume": {
     "title": "Full Resume",
     "sentence": "View full resume"
   },
   "aside": {
+    "title": "About this website",
     "text": "<p>\n    This site is inspired by <a href=\"https://motherfuckingwebsite.com/\" target=\"_blank\">motherfuckingwebsite</a>, even though I'm a <b>full stack</b> developer, I'm more interested in\n    <b>backend</b> and I found it amusing to illustrate this attraction with a site <u>without CSS</u>, it's just HTML. This site is\n    developed in <a href=\"https://vuejs.org/\" target=\"_blank\">Vue 3</a> with <a href=\"https://vitejs.dev/\" target=\"_blank\">Vite</a> and <a\n        href=\"https://bun.sh/\" target=\"_blank\">Bun</a>, powered by my <a href=\"https://gist.github.com/discover\" target=\"_blank\">Gists</a> and my <a href=\"https://github.com/0grre\" target=\"_blank\">GitHub</a> profile via\n    <a href=\"https://docs.github.com/en/rest?apiVersion=2022-11-28\" target=\"_blank\">the API</a> and deployed on <a href=\"https://vercel.com/\" target=\"_blank\">Vercel</a>.\n</p>\n"
   }
 }

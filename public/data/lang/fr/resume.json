@@ -1,0 +1,273 @@
+{
+  "basics": {
+    "name": "Jean-Baptiste",
+    "label": "Développeur Backend",
+    "email": "contact@jbloup.com",
+    "url": "https://jbloup.com",
+    "title": "Développeur Backend",
+    "company": "Wokine",
+    "subtitle": "Méthodique, curieux, et ambitieux, j’occupe actuellement le poste de Développeur Backend PHP chez Wokine.",
+    "summary": "Développeur web depuis bientôt 5 ans, mon chemin professionnel est assez original.\n      Après avoir exploré plusieurs\n      métiers très différents, allant de facteur à conducteur de train en passant par ambulancier, je me suis finalement\n      reconverti en 2019, découvrant ainsi ma véritable voie professionnelle :\n      <mark>le développement informatique</mark>.\n      <br>\n      <br>\n      Ce qui a commencé comme une carrière est devenu un passe-temps. Je consacre souvent mon temps\n      libre à coder. Je suis particulièrement attiré par l'univers de l'open source pour son esprit de partage et\n      d'innovation.\n      <br>\n      <br>\n      En dehors du développement, mes intérêts sont variés : je suis un fervent amateur d'astronomie et d'aérospatial,\n      un\n      aquariophile invétéré et depuis peu un joueur de rugby. Cette diversité d'intérêts nourrit ma créativité et mon\n      approche du développement.",
+    "location": {
+      "locationCountryCode": "FR",
+      "city": "Lille"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "url": "https://twitter.com/_0grre",
+        "username": "_0grre"
+      },
+      {
+        "network": "Reddit",
+        "url": "https://www.reddit.com/user/0gre-Singleton/",
+        "username": "0grre-Singleton"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/0grre",
+        "username": "0grre"
+      },
+      {
+        "network": "Bluesky",
+        "url": "https://bsky.app/profile/0grre.bsky.social",
+        "username": "_0grre"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jean-baptiste-loup-363941180/",
+        "username": "Jean-Baptiste Loup"
+      },
+      {
+        "network": "We love devs",
+        "url": "https://jb-loup.welovedevs.com",
+        "username": "JB Loup"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "WOKINE",
+      "position": "Développeur Backend",
+      "startDate": "2021-09-01",
+      "summary": "Développement Backend Laravel & Wordpress - Frontend VueJS",
+      "highlights": [
+        "PHP | Laravel | Wordpress",
+        "Javascript | VueJS | Inertia",
+        "MySQL | PostgresSQL | MongoDB",
+        "Docker | Redis",
+        "Timber | Twig"
+      ],
+      "url": "https://www.wokine.com/"
+    },
+    {
+      "name": "BORESA",
+      "position": "Consultant - Développeur Gestion",
+      "startDate": "2019-09-01",
+      "endDate": "2021-08-30",
+      "summary": "Développeur et Consultant sur des logiciels de gestion.",
+      "location": "Achicourt, France",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "Javascript",
+        "TailwindCSS",
+        "Windev",
+        "MySQL"
+      ],
+      "url": "https://boresa.fr/"
+    },
+    {
+      "name": "Centre Européen de Formation",
+      "position": "Commercial sédentaire",
+      "startDate": "2019-03-01",
+      "endDate": "2019-05-01",
+      "summary": "commercial sédentaire, vente par téléphone de formation à distance ",
+      "location": "Villeneuve-d'Ascq, France",
+      "url": "https://www.centre-europeen-formation.fr/"
+    },
+    {
+      "name": "SNCF",
+      "position": "Conducteur de train",
+      "startDate": "2018-05-01",
+      "endDate": "2019-03-01",
+      "summary": "Conducteur de train RER E et Ligne P",
+      "location": "Paris, France",
+      "placeId": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+      "url": "https://www.sncf.com/fr"
+    },
+    {
+      "name": "JUSSIEU secours France",
+      "position": "Auxilaire ambulancier",
+      "startDate": "2017-10-01",
+      "endDate": "2018-05-01",
+      "summary": "Ambulancier ASSU pour le SAMU et conducteur de VSL",
+      "location": "Marquette-en-Ostrevant, France",
+      "url": "https://jussieu-secours.fr/"
+    },
+    {
+      "name": "Le Groupe La Poste",
+      "position": "Chauffeur livreur",
+      "startDate": "2016-09-01",
+      "endDate": "2017-10-01",
+      "summary": "Livreur et facteur sur différentes ville",
+      "location": "Hénin-Beaumont, France",
+      "url": "https://www.laposte.fr/"
+    },
+    {
+      "name": "COMMUNE DE WINGLES",
+      "position": "Animateur",
+      "startDate": "2012-02-01",
+      "endDate": "2017-08-01",
+      "summary": "Animateur/directeur d’accueil collectif pour mineur de 3 à 18 ans pendant les\nvacances scolaire de 2012 à 2017",
+      "location": "Wingles, France",
+      "url": "https://wingles.fr/"
+    }
+  ],
+  "educations": [
+    {
+      "institution": "CESI École Ingénieur",
+      "area": "Développeur Informatique",
+      "studyType": "Mastet Manager en Architecture des Applications des Systèmes d'Informations (BAC + 5)",
+      "endDate": "2024-01-01"
+    },
+    {
+      "institution": "CESI École Ingénieur",
+      "area": "Développement informatique",
+      "studyType": "Bachelor Responsable en ingénierie logicielle(bac+3)",
+      "endDate": "2022-01-01"
+    },
+    {
+      "institution": "CESI École Supérieure de l’Alternance",
+      "area": "Développement informatique",
+      "studyType": "Développeur Informatique (BAC+2)",
+      "endDate": "2021-01-01"
+    },
+    {
+      "institution": "Université d'Artois",
+      "area": "Droit",
+      "studyType": "Licence de droit, Droit",
+      "endDate": "2017-01-01"
+    },
+    {
+      "institution": "Université de Lille",
+      "area": "Étude Cinématographique",
+      "studyType": "Licence cinématographique, Étude du cinéma",
+      "endDate": "2013-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "value": 90
+    },
+    {
+      "name": "Laravel",
+      "value": 80
+    },
+    {
+      "name": "Javascript",
+      "value": 80
+    },
+    {
+      "name": "Vue",
+      "value": 70
+    },
+    {
+      "id": "Rust",
+      "name": "Rust",
+      "value": 25
+    }
+  ],
+  "languages": [
+    {
+      "name": "Français",
+      "value": 100,
+      "language": "Français"
+    },
+    {
+      "name": "Anglais",
+      "value": 60,
+      "language": "Anglais"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Course à pied"
+    },
+    {
+      "name": "Rugby"
+    },
+    {
+      "name": "Astronomie / Aérospatial"
+    },
+    {
+      "name": "Lecture / Cinéma"
+    },
+    {
+      "name": "Aquariophilie / Biophilie"
+    }
+  ],
+  "projects": [
+    {
+      "starDate": "2023-07-01",
+      "highlights": [
+        "Openai",
+        "Laravel",
+        "TailwindCSS",
+        "Blade",
+        "Redis",
+        "Fly.io"
+      ],
+      "summary": "Application web de génération de lettre de motivation via openAI et alimenté par les données de pôle emploi.\n\nDéveloppée avec Laravel et déployée sur fly.io",
+      "url": "https://lettredemotivation.app",
+      "name": "lettredemotivation.app",
+      "endDate": "2023-09-01",
+      "image": "https://images3.alphacoders.com/165/thumb-1920-165265.jpg"
+    },
+    {
+      "starDate": "2023-05-01",
+      "highlights": [
+        "Laravel",
+        "Filament",
+        "TailwindCSS",
+        "Inertia",
+        "Redis",
+        "Fly.io"
+      ],
+      "summary": "Site vitrine pour un artiste, avec description et possibilité dájouter les nouvelles oeuvres et date de rencontre.\n\nDéveloppé en laravel avec filament, Inertia et déployé sur fly.io",
+      "url": "https://crealion.art",
+      "name": "crealion.art",
+      "endDate": "2023-05-01",
+      "image": "https://images3.alphacoders.com/165/thumb-1920-165265.jpg"
+    },
+    {
+      "starDate": "2022-02-01",
+      "highlights": [
+        "Vue",
+        "NuxtJS",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "summary": "Site de présnetation d'un projet de NFT sur la blockchain Solana.\n\nSite Server Side avec Notion comme source de données, développer avec NuxtJS et déployé sur Vercel.",
+      "url": "https://degenosaur.us",
+      "name": "degenosaur.us",
+      "endDate": "2022-02-01",
+      "image": "https://images3.alphacoders.com/165/thumb-1920-165265.jpg"
+    },
+    {
+      "starDate": "2021-02-01",
+      "highlights": [
+        "Vue",
+        "NuxtJS",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "summary": "C'est un site vitrine pour un coach en développement personnel qui présente rapidement le concept qu'il propose ainsi qu'un petit formulaire de contact.\n\nDéveloppé avec NuxtJS et déployé sur Vercel.",
+      "url": "https://franckmalecki.com",
+      "name": "franckmalecki.com",
+      "endDate": "2021-02-01",
+      "image": "https://images3.alphacoders.com/165/thumb-1920-165265.jpg"
+    }
+  ]
+}

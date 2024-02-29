@@ -1,6 +1,8 @@
 {
   "header": {
-    "at": "chez"
+    "title": "Accueil",
+    "at": "chez",
+    "url": "/"
   },
   "about": {
     "title": "À propos"
@@ -13,7 +15,13 @@
   },
   "archives": {
     "title": "Archives",
-    "sentence": "Voir mes autres projets"
+    "sentence": "Voir mes autres projets",
+    "url": "/archives",
+    "table": {
+      "title": "Titre",
+      "description": "Description",
+      "date": "Date"
+    }
   },
   "resume": {
     "title": "CV Complet",

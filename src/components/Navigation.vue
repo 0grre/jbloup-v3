@@ -3,6 +3,10 @@ import Header from "./Header.vue";
 
 const props = defineProps({
   templateData: Object,
+  home: {
+    type: Boolean,
+    default: true
+  }
 })
 </script>
 
@@ -16,7 +20,7 @@ const props = defineProps({
           <tr>
             <td></td>
             <td width="150px">
-              <ol>
+              <ol v-if="home">
                 <li>
                   <a href="#about">{{ templateData.about.title }}</a>
                 </li>
@@ -29,7 +33,9 @@ const props = defineProps({
               </ol>
               <ul>
                 <li>
-                  <router-link to="/archives">{{ templateData.archives.title }}</router-link>
+                  <router-link :to="home ? templateData.archives.url : templateData.header.url">
+                    {{ home ? templateData.archives.title : templateData.header.title }}
+                  </router-link>
                 </li>
                 <li>
                   <a href="/Jean-Baptiste_LOUP_CV_2024.pdf">{{ templateData.resume.title }}</a>

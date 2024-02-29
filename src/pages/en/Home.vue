@@ -11,13 +11,11 @@ import frenchResumeData from "../../services/fr/resume.js"
 import englishResumeData from "../../services/en/resume.js"
 import frenchTemplateData from "../../services/fr/template.js"
 import englishTemplateData from "../../services/en/template.js"
-import projects from "../../services/projects.js";
 
 const templateData = ref(frenchTemplateData);
 const resumeData = ref(frenchResumeData);
 
 const loadTemplateData = (locationCountryCode) => {
-  console.log(locationCountryCode)
   if (locationCountryCode === 'FR') {
     templateData.value = englishTemplateData;
     resumeData.value = englishResumeData;

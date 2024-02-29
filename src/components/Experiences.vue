@@ -1,13 +1,10 @@
 <script setup>
+import {getYear} from "../../services/projects.js"
+
 const props = defineProps({
   work: Object,
   resume: String
 })
-
-const getYear = (string) => {
-  const date = Date.parse(string);
-  return new Date(date).getUTCFullYear()
-}
 
 </script>
 

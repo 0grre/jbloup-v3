@@ -1,6 +1,8 @@
 {
   "header": {
-    "at": "at"
+    "title": "Accueil",
+    "at": "at",
+    "url": "/en"
   },
   "about": {
     "title": "About"
@@ -13,7 +15,8 @@
   },
   "archives": {
     "title": "Public projects",
-    "sentence": "View all projects"
+    "sentence": "View all projects",
+    "url": "/en/archives"
   },
   "resume": {
     "title": "Full Resume",

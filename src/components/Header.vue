@@ -7,10 +7,10 @@ const emit = defineEmits(['changeLanguage']);
 </script>
 
 <template>
-  <section id="#header">
+  <div id="header">
     <table>
       <tr>
-        <td width="98%" valign="top">
+        <td width="100%" valign="top">
           <h1>{{ basics.name }}</h1>
           <p><i>{{ basics.label }} {{ templateData.at }} <b>{{ basics.company }}</b></i></p>
           <ul>
@@ -28,5 +28,5 @@ const emit = defineEmits(['changeLanguage']);
         </td>
       </tr>
     </table>
-  </section>
+  </div>
 </template>
